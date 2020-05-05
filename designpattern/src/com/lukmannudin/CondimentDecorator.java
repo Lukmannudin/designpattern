@@ -1,4 +1,5 @@
 package com.lukmannudin;
 
-public class CondimentDecorator {
+abstract class CondimentDecorator extends Beverage {
+    public abstract String getDescription();
 }

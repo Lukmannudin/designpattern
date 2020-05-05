@@ -1,4 +1,11 @@
 package com.lukmannudin;
 
-public class Beverage {
+public abstract class Beverage {
+    protected String description = "Unknown Beverage";
+
+    public String getDescription() {
+        return description;
+    }
+
+    abstract double cost();
 }
